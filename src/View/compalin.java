@@ -80,8 +80,8 @@ public class compalin extends javax.swing.JFrame {
         jButton2.setText("Proflie");
         getContentPane().add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(774, 6, 114, 47));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\Dell\\Desktop\\ok\\src\\View\\dashboardimage.jpg")); // NOI18N
-        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1030, 640));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/dashboardimage.jpg"))); // NOI18N
+        getContentPane().add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 890, 640));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

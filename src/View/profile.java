@@ -136,8 +136,6 @@ public class profile extends javax.swing.JFrame {
             }
         });
         jPanel1.add(emailinfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 260, 150, -1));
-
-        labelimage.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Desktop\\projectimage\\profilepic.png")); // NOI18N
         jPanel1.add(labelimage, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 70, 90, 80));
 
         profileimage.setFont(new java.awt.Font("Times New Roman", 2, 12)); // NOI18N
@@ -150,7 +148,7 @@ public class profile extends javax.swing.JFrame {
         jPanel1.add(profileimage, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 160, -1, 30));
         jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, -1, -1));
 
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Desktop\\projectimage\\backimage-removebg-preview.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/backimage-removebg-preview.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -158,7 +156,7 @@ public class profile extends javax.swing.JFrame {
         });
         jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 0, 40, 30));
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\DELL\\Desktop\\projectimage\\dashboardimage.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/View/dashboardimage.jpg"))); // NOI18N
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 420, 530));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
